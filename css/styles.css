@@ -71,6 +71,16 @@ main section {
   justify-content: center;
 }
 
+img {
+  width: 100px;
+}
+
+section {
+  display: flex;
+  font-size: 20px;
+}
+
+
 /************
 FOOTER
 ************/
