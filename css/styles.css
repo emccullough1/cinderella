@@ -1,8 +1,17 @@
 /*
+  fonts
+*/
+
+@font-face {
+  font-family: 'Parisienne';
+  src: url("../fonts/Parisienne-Regular.ttf")
+}
+
+/*
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background: white;
 }
 
 * {
@@ -42,7 +51,16 @@ aside {
 /************
 HEADER
 ************/
-/* Your Styles */
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: Parisienne;
+  font-size: 80px;
+  color: #DAA520;
+
+}
 
 
 /************
