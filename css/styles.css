@@ -4,7 +4,22 @@
 
 @font-face {
   font-family: 'Parisienne';
-  src: url("../fonts/Parisienne-Regular.ttf")
+  src: url("../fonts/Parisienne-Regular.ttf");
+  font-family: 'Monsieur';
+  src: url('../fonts/MonsieurLaDoulaise-Regular.ttf');
+  font-family: 'Tangerine';
+  src: url("../fonts/Tangerine-Bold.ttf"),
+  url("../fonts/Tangerine-Regular.ttf");
+  font-family: 'JosefinSlab';
+  src: url("../fonts/JosefinSlab-Italic.ttf"),
+  url('../fonts/JosefinSlab-Light.ttf'),
+  url('../fonts/JosefinSlab-LightItalic.ttf'),
+  url('../fonts/JosefinSlab-Regular.ttf'),
+  url('../fonts/JosefinSlab-SemiBold.ttf'),
+  url('../fonts/JosefinSlab-SemiBoldItalic.ttf'),
+  url('../fonts/JosefinSlab-Thin.ttf'),
+  url('../fonts/JosefinSlab-ThinItalic.ttf');
+  
 }
 
 /*
@@ -12,6 +27,7 @@
 */
 body {
   background: white;
+  font-family: 'JosefinSlab';
 }
 
 * {
@@ -98,6 +114,9 @@ section {
   font-size: 20px;
 }
 
+figcaption {
+  font-family: Tangerine;
+}
 
 /************
 FOOTER
