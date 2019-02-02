@@ -8,13 +8,14 @@
   font-family: 'Monsieur';
   src: url('../fonts/MonsieurLaDoulaise-Regular.ttf');
   font-family: 'Tangerine';
-  src: url("../fonts/Tangerine-Bold.ttf"),
-  url("../fonts/Tangerine-Regular.ttf");
+  src: url("../fonts/Tangerine-Regular.ttf"),
+  url("../fonts/Tangerine-Bold.ttf");
   font-family: 'JosefinSlab';
-  src: url("../fonts/JosefinSlab-Italic.ttf"),
+  src:
+  url('../fonts/JosefinSlab-Regular.ttf'),
+  url("../fonts/JosefinSlab-Italic.ttf"),
   url('../fonts/JosefinSlab-Light.ttf'),
   url('../fonts/JosefinSlab-LightItalic.ttf'),
-  url('../fonts/JosefinSlab-Regular.ttf'),
   url('../fonts/JosefinSlab-SemiBold.ttf'),
   url('../fonts/JosefinSlab-SemiBoldItalic.ttf'),
   url('../fonts/JosefinSlab-Thin.ttf'),
@@ -25,13 +26,17 @@
 /*
   DIAGNOSTIC STYLING
 */
+
 body {
   background: white;
   font-family: 'JosefinSlab';
+  font-weight: bold;
+  background-color: white;
 }
 
 * {
   outline: 1px dotted black;
+  margin: 0;
 }
 
 /************
@@ -53,6 +58,7 @@ body {
 header,
 footer {
   grid-column: 1 / span 5;
+  background-color: #242038;
 }
 
 main {
@@ -71,11 +77,14 @@ header {
   text-align: center;
 }
 
-h1 {
-  font-family: Parisienne;
-  font-size: 80px;
-  color: #DAA520;
+header > img {
+  height: 110px;
+  width: 410px;
+}
 
+
+h2, h3, h4 {
+  font-family: 'Monsieur';
 }
 
 
