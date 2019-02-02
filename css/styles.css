@@ -45,7 +45,6 @@ body {
   /* Center to Page   */
   margin: 0 auto;
   max-width: 100%;
-  padding: 1em 0;
   
   /* CSS Grid Layout   */
   display: grid;
@@ -56,16 +55,16 @@ body {
 
 header,
 footer {
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 7;
 }
 
 /** main **/
 #long {
-  grid-column: 1 / span 5;
+  grid-column: 2 / span 5;
 }
 
 #short {
-  grid-column: 1 / span 3;
+  grid-column: 2 / span 3;
 }
 /**   **/
 
@@ -78,12 +77,13 @@ aside {
 HEADER
 ************/
 header {
-  text-align: center;
+  background-color: #242038;
+  padding: 15px 0px 10px 20px;
 }
 
 header > img {
-  height: 110px;
-  width: 410px;
+  height: 60px;
+  width: 250px;
 }
 
 
