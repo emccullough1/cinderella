@@ -31,12 +31,11 @@ body {
   background: white;
   font-family: 'JosefinSlab';
   font-weight: bold;
-  background-color: white;
 }
 
 * {
-  outline: 1px dotted black;
   margin: 0;
+  outline: 1px dotted black;
 }
 
 /************
@@ -45,12 +44,12 @@ LAYOUT
 body {
   /* Center to Page   */
   margin: 0 auto;
-  max-width: 70em;
+  max-width: 100%;
   padding: 1em 0;
   
   /* CSS Grid Layout   */
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: auto;
   grid-gap: 1em;
 }
@@ -58,12 +57,17 @@ body {
 header,
 footer {
   grid-column: 1 / span 5;
-  background-color: #242038;
 }
 
-main {
+/** main **/
+#long {
+  grid-column: 1 / span 5;
+}
+
+#short {
   grid-column: 1 / span 3;
 }
+/**   **/
 
 aside {
   grid-column: span 2;
@@ -83,9 +87,7 @@ header > img {
 }
 
 
-h2, h3, h4 {
-  font-family: 'Monsieur';
-}
+
 
 
 /************
@@ -106,6 +108,21 @@ video {
 }
 
 /************
+PLOT
+************/
+  p {
+    padding-bottom: 7px;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+
+  h2 {
+    font-family: 'Parisienne';
+    padding-bottom: 10px;
+    font-size: 32px;
+  }
+
+/************
 ACTORS
 ************/
 main section { 
@@ -120,6 +137,7 @@ img {
 
 section {
   display: flex;
+  flex-direction: column;
   font-size: 20px;
 }
 
@@ -150,7 +168,8 @@ RWD
 /*mobile*/
 @media (max-width: 700px) {
 
-  main,
+  #long,
+  #short,
   aside {
     grid-column: 1 / span 5;
   }
