@@ -56,6 +56,7 @@ body {
 header,
 footer {
   grid-column: 1 / span 7;
+  background-color: #242038;
 }
 
 /** main **/
@@ -77,13 +78,13 @@ aside {
 HEADER
 ************/
 header {
-  background-color: #242038;
-  padding: 15px 0px 10px 20px;
+
 }
 
 header > img {
   height: 60px;
   width: 250px;
+  padding: 15px 0px 10px 20px;
 }
 
 
@@ -160,7 +161,15 @@ RWD
 @media (max-width: 1000px) {
 
   body {
-    max-width: 56em;
+    max-width: 100%;
+  }
+
+  #long {
+    grid-column: 1 / span 7;
+  }
+
+  #short {
+    grid-column: 1 / span 5;
   }
 }
 
@@ -171,7 +180,7 @@ RWD
   #long,
   #short,
   aside {
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 7;
   }
   
 }
