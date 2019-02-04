@@ -39,7 +39,7 @@ body {
 
 * {
   margin: 0;
-  outline: 1px dotted black;
+
 }
 
 /************
@@ -48,11 +48,11 @@ LAYOUT
 body {
   /* Center to Page   */
   margin: 0 auto;
-  max-width: 70em;
+  max-width: 100%;
   
   /* CSS Grid Layout   */
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: auto;
 
 }
@@ -69,12 +69,14 @@ footer {
 }
 
 #short {
-  grid-column: 2 / span 3;
+  grid-column: 2 / span 4;
+  padding: 20px 0px 20px 20px;
 }
 /**   **/
 
 aside {
-  grid-column: span 2;
+  grid-column: span 1;
+  padding: 20px;
 }
 
 #long,
@@ -97,8 +99,6 @@ header > img {
 
 
 
-
-
 /************
 MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
 ************/
@@ -113,7 +113,7 @@ video {
 }
 
 .mejs__time-current {
-  background: tomato;
+  background: rebeccapurple;
 }
 
 /************
@@ -141,7 +141,8 @@ main section {
 }
 
 img {
-  width: 120px;
+  width: 100px;
+  padding: 5px;
 }
 
 section {
@@ -172,8 +173,9 @@ RWD
   }
 
   #short {
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 6;
   }
+
 }
 
 
