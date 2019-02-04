@@ -48,7 +48,7 @@ LAYOUT
 body {
   /* Center to Page   */
   margin: 0 auto;
-  max-width: 70em;
+  max-width: 100%;
   
   /* CSS Grid Layout   */
   display: grid;
@@ -114,7 +114,7 @@ video {
 }
 
 .mejs__time-current {
-  background: #;
+  background: white;
 }
 
 /************
