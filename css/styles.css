@@ -48,7 +48,7 @@ LAYOUT
 body {
   /* Center to Page   */
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 70em;
   
   /* CSS Grid Layout   */
   display: grid;
@@ -114,7 +114,7 @@ video {
 }
 
 .mejs__time-current {
-  background: rebeccapurple;
+  background: #;
 }
 
 /************
@@ -149,12 +149,12 @@ img {
 section {
   display: flex;
   flex-direction: row;
+  align-content: space-between;
 }
 
 figure:hover {
-  transform: scale(1.07);
+  transform: scale(1.1);
   transition-duration: .5s;
-  
 }
 
 /************
