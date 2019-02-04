@@ -70,19 +70,20 @@ footer {
 
 #short {
   grid-column: 2 / span 4;
-  padding: 20px 0px 20px 20px;
+  padding: 15px;
 }
 /**   **/
 
 aside {
   grid-column: span 1;
-  padding: 20px;
+  padding: 15px;
+  color: white;
+  background-color: black;
 }
 
 #long,
-#short,
-aside {
-  background-color: #BDBEA9
+#short {
+  background-color: #BDBEA9;
 }
 /************
 HEADER
@@ -141,7 +142,7 @@ main section {
 }
 
 img {
-  width: 100px;
+  width: 90px;
   padding: 5px;
 }
 
