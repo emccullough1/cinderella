@@ -133,7 +133,7 @@ PLOT
   }
 
 /************
-ACTORS
+Cast
 ************/
 main section { 
   display: flex;
@@ -149,6 +149,12 @@ img {
 section {
   display: flex;
   flex-direction: row;
+}
+
+figure:hover {
+  transform: scale(1.07);
+  transition-duration: .5s;
+  
 }
 
 /************
